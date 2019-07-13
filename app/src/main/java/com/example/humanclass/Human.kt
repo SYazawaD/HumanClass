@@ -7,8 +7,6 @@ open class Human :Animal,Thinkable{
 
     //プロパティ
     constructor(name:String , age:Int, hobby: String) :super(name,age){
-        this.name = name
-        this.age = age
         this.hobby =hobby
     }
 
